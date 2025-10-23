@@ -284,7 +284,8 @@ export const AddGoalDialog = ({ trigger, onSubmit }: AddGoalDialogProps) => {
               </Button>
             </div>
           </form>
-        </div>,
+        </div>
+      </div>,
         document.body,
       );
 
@@ -295,4 +296,3 @@ export const AddGoalDialog = ({ trigger, onSubmit }: AddGoalDialogProps) => {
     </>
   );
 };
-

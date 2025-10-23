@@ -31,10 +31,10 @@ const App = () => {
       <header className="border-b border-slate-900/60 bg-slate-950/60 backdrop-blur">
         <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-6 py-12 md:flex-row md:items-center md:justify-between">
           <div className="max-w-xl space-y-4">
-            <span className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-200">
+            <span className="inline-flex items-center gap-2 rounded-full border border-brand-500/70 bg-gradient-to-r from-brand-500/30 via-brand-400/20 to-brand-500/30 px-4 py-2 text-sm font-bold uppercase tracking-[0.35em] text-brand-50 drop-shadow-[0_10px_30px_rgba(14,165,233,0.35)]">
               Momentum
             </span>
-            <h1 className="text-4xl font-semibold text-white md:text-5xl">
+            <h1 className="text-3xl font-semibold text-white md:text-4xl">
               Make your fitness vision feel actionable
             </h1>
             <p className="text-sm text-slate-400 md:text-base">
@@ -118,4 +118,3 @@ const App = () => {
 };
 
 export default App;
-
